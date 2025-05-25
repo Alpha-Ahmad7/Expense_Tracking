@@ -7,16 +7,19 @@ Each node of Master Linklist has its own sub linklist that has nodes for Each it
 Structure:
 
 The main Master node consist of two parts Key & Next.
-key: it points to the head of the sub-list "typeNode".
-Next: it has teh adress of next master node.
+
+Key: it points to the head of the sub-list "typeNode".
+Next: it has the adress of next master node.
 
 the sub linklist or you can say expense nodes also has two parts:
-Data: contains itesm Type or the Amount.
+
+Data: contains items Type or the Amount.
 Next: It has address of next node.
 
 Working:
 
 The program has some features like:   
+
 1- Add Expense
 2- Update Expense
 3- Display Expenses
