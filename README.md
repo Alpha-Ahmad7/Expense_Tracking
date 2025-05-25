@@ -1,12 +1,27 @@
 # Expense_Tracking
 
 In this program i have used the concept of Linklist. 
-The algorithm of my program is such tha it consists of Master linklist and other one is sub linklist or data/expense linklist.
-Each node of Master Linklist has its own sub linklist that has nodes for each items Type and Amount.
+The algorithm of my program is such tha it consists of Master linklist and other one is sub linklist (which stores the expense data).
+Each node of Master Linklist has its own sub linklist that has nodes for Each items Type and Amount.
+
+Structure:
 
 The main Master node consist of two parts Key & Next.
-Also the Expense nodes have 2 parts data and next each.
-The key of master node has the address of the sub typeNode and further the typeNode has the adress of amountNode.
+key: it points to the head of the sub-list "typeNode".
+Next: it has teh adress of next master node.
+
+the sub linklist or you can say expense nodes also has two parts:
+Data: contains itesm Type or the Amount.
+Next: It has address of next node.
+
+Diagram: 
+
+  Master1   ->       Master2  -> ........
+    v                  v 
+[nodeType]        [nodeType]
+    v                  v 
+[amountNode]      [amountNode]
+
 
 Working:
 
