@@ -14,18 +14,9 @@ the sub linklist or you can say expense nodes also has two parts:
 Data: contains itesm Type or the Amount.
 Next: It has address of next node.
 
-Diagram: 
-
-  Master1   ->       Master2  -> ........
-    v                  v 
-[nodeType]        [nodeType]
-    v                  v 
-[amountNode]      [amountNode]
-
-
 Working:
 
-The program has some features like:
+The program has some features like:   
 1- Add Expense
 2- Update Expense
 3- Display Expenses
