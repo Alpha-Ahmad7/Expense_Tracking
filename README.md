@@ -8,21 +8,21 @@ Structure:
 
 The main Master node consist of two parts Key & Next.
 
-Key: it points to the head of the sub-list "typeNode".
+Key: it points to the head of the sub-list "typeNode".     
 Next: it has the adress of next master node.
 
 the sub linklist or you can say expense nodes also has two parts:
 
-Data: contains items Type or the Amount.
+Data: contains items Type or the Amount.      
 Next: It has address of next node.
 
 Working:
 
 The program has some features like:   
 
-1- Add Expense
-2- Update Expense
-3- Display Expenses
+1- Add Expense    
+2- Update Expense   
+3- Display Expenses   
 0- Exit
 
 Hope you liked it!
